@@ -159,7 +159,7 @@ export const publish = createRoute({
   },
 });
 export const getUsersResources = createRoute({
-  path: "/users/resources",
+  path: "/user/resources",
   method: "get",
   tags,
   responses: {
